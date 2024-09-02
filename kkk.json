@@ -1,0 +1,963 @@
+{
+    "DefaultCloudSaveItemsToBeSaved": [{
+        "CloudSaveItemKey": "CURRENT_MISSIONS_STATE_CLOUDSAVE_KEY",
+        "AccessLevel": "Default",
+        "DefaultValue": {
+            "MainCategories": [{
+                "MissionCategoryId": "WEAPONS",
+                "MissionCategoryIndex": 0,
+                "MissionStates": [1, 0, 0, 0],
+                "MissionRequirementMet": [false, false, false, false]
+            }, {
+                "MissionCategoryId": "ITEMS",
+                "MissionCategoryIndex": 1,
+                "MissionStates": [1, 0, 0, 0],
+                "MissionRequirementMet": [false, false, false, false]
+            }, {
+                "MissionCategoryId": "EXTRAS",
+                "MissionCategoryIndex": 2,
+                "MissionStates": [1, 0, 0, 0],
+                "MissionRequirementMet": [false, false, false, false]
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_KILL_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_MATCH_KILL_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_RANKED_MATCH_KILL_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_MATCH_WIN_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_MATCH_WIN_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_RANKED_WIN_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_DAMAGE_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_MATCH_DAMAGE_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_RANKED_DAMAGE_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_HEADSHOT_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_MATCH_HEADSHOT_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_NORMAL_RANKED_HEADSHOT_COUNT_CLOUDSAVE_KEY_TOTAL",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_KILL_COUNT_CLOUDSAVE_KEY_MISSION",
+        "AccessLevel": "Default",
+        "DefaultValue": 50
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_WIN_COUNT_CLOUDSAVE_KEY_MISSION",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_KILL_COUNT_CLOUDSAVE_KEY_UNIQUE_CAMO_MISSION_ALIYAHOO419_GOLDENLINE",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "BEATLE_KILL_COUNT_CLOUDSAVE_KEY_MISSION",
+        "AccessLevel": "Default",
+        "DefaultValue": 60
+    }, {
+        "CloudSaveItemKey": "FRAG_KILL_COUNT_CLOUDSAVE_KEY_MISSION",
+        "AccessLevel": "Default",
+        "DefaultValue": 120
+    }, {
+        "CloudSaveItemKey": "GRENADELUNCHER_KILL_COUNT_CLOUDSAVE_KEY_MISSION",
+        "AccessLevel": "Default",
+        "DefaultValue": 0
+    }],
+    "PublicCloudSaveItemsToBeSaved": [{
+        "CloudSaveItemKey": "PLAYER_BOT_NAME",
+        "AccessLevel": "Public",
+        "DefaultValue": "Us@Nato"
+    }, {
+        "CloudSaveItemKey": "PLAYER_RANK",
+        "AccessLevel": "Public",
+        "DefaultValue": "Novice"
+    }, {
+        "CloudSaveItemKey": "CURRENT_PLAYER_RANK_XP",
+        "AccessLevel": "Public",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "PLAYER_LEVEL",
+        "AccessLevel": "Public",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "CURRENT_PLAYER_LEVEL_XP",
+        "AccessLevel": "Public",
+        "DefaultValue": 0
+    }, {
+        "CloudSaveItemKey": "Current_Selected_Loadout_CloudSaveKey",
+        "AccessLevel": "Public",
+        "DefaultValue": 0
+    }],
+    "ProtectedCloudSaveItemsToBeSaved": [{
+        "CloudSaveItemKey": "FIRST_LOADOUT_CONFIGS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "LoadoutClassId": "firstLoadout",
+            "LoadoutItems": [{
+                "ItemClassCategory": "PrimaryWeapon",
+                "ItemId": "ALIYAHOO419",
+                "ItemNetConfigName": "Aliyahoo419",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "ALIYAHOO419_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_SMG_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Aliyahoo419(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "SecondaryWeapon",
+                "ItemId": "HITRAM",
+                "ItemNetConfigName": "HitRam",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "HITRAM_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_PISTOLE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "HitRam(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "MeleeWeapon",
+                "ItemId": "BATTLEAXE",
+                "ItemNetConfigName": "BattleAxe",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "BATTLEAXE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_MELEE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "BattleAxe(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Grenade",
+                "ItemId": "FRAG",
+                "ItemNetConfigName": "Frag",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "FRAG_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_GRENADE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Frag(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "PowerWeapon",
+                "ItemId": "GRENADELUNCHER",
+                "ItemNetConfigName": "GrenadeLuncher",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "GRENADELUNCHER_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_POWERWEAPON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "GrenadeLuncher(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Summon_1",
+                "ItemId": "CLAIRVOYANCE",
+                "ItemNetConfigName": "Clairvoyance",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "CLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_SUMMON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Clairvoyance(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Summon_2",
+                "ItemId": "COUNTERCLAIRVOYANCE",
+                "ItemNetConfigName": "Counter_Clairvoyance",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "COUNTERCLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_SUMMON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "CounterClairvoyance(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Jetpack",
+                "ItemId": "JETPACK_BASE",
+                "ItemNetConfigName": "Jetpack_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "JETPACK_BASE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_JETPACK_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Jetpack_Base(Clone)",
+                "ItemUiVisualSpriteAtlasId": "JETPACK_VISUALS_SPRITE_ATLAS",
+                "ItemUiVisualSpriteName": "BaseJetpack(Clone)",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "StickmanSkin",
+                "ItemId": "STICKMAN_BASE",
+                "ItemNetConfigName": "Stickman_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "STICKMAN_BASE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_STICKMAN_SKIN_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Stickman_Base(Clone)",
+                "ItemUiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "ItemUiVisualSpriteName": "Base_Icon(Clone)",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "StickmanHand",
+                "ItemId": "STICKMAN_HAND_BASE",
+                "ItemNetConfigName": "Stickman_Hand_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "STICKMAN_HAND_BASE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_STICKMAN_HAND_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Stickman_Hand_Base(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "SECOND_LOADOUT_CONFIGS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "LoadoutClassId": "SecondLoadout",
+            "LoadoutItems": [{
+                "ItemClassCategory": "PrimaryWeapon",
+                "ItemId": "AK4117",
+                "ItemNetConfigName": "Ak4117",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "AK4117_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_LMG_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Ak4117(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "SecondaryWeapon",
+                "ItemId": "HITRAM",
+                "ItemNetConfigName": "HitRam",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "HITRAM_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_PISTOLE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "HitRam(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "MeleeWeapon",
+                "ItemId": "BATTLEAXE",
+                "ItemNetConfigName": "BattleAxe",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "BATTLEAXE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_MELEE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "BattleAxe(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Grenade",
+                "ItemId": "FRAG",
+                "ItemNetConfigName": "Frag",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "FRAG_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_GRENADE_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Frag(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "PowerWeapon",
+                "ItemId": "GRENADELUNCHER",
+                "ItemNetConfigName": "GrenadeLuncher",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "GRENADELUNCHER_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_POWERWEAPON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "GrenadeLuncher(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Summon_1",
+                "ItemId": "CLAIRVOYANCE",
+                "ItemNetConfigName": "Clairvoyance",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "CLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_SUMMON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Clairvoyance(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Summon_2",
+                "ItemId": "COUNTERCLAIRVOYANCE",
+                "ItemNetConfigName": "Counter_Clairvoyance",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "COUNTERCLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_SUMMON_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "CounterClairvoyance(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "Jetpack",
+                "ItemId": "JETPACK_BASE",
+                "ItemNetConfigName": "Jetpack_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "JETPACK_BASE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Basic",
+                "ItemSpriteAtlasId": "BASIC_JETPACK_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Jetpack_Base(Clone)",
+                "ItemUiVisualSpriteAtlasId": "JETPACK_VISUALS_SPRITE_ATLAS",
+                "ItemUiVisualSpriteName": "BaseJetpack(Clone)",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "StickmanSkin",
+                "ItemId": "STICKMAN_DAVE",
+                "ItemNetConfigName": "Stickman_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "STICKMAN_DAVE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Rare",
+                "ItemSpriteAtlasId": "RARE_STICKMAN_SKIN_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Stickman_Dave(Clone)",
+                "ItemUiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "ItemUiVisualSpriteName": "Dave_Icon(Clone)",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }, {
+                "ItemClassCategory": "StickmanHand",
+                "ItemId": "STICKMAN_HAND_DAVE",
+                "ItemNetConfigName": "Stickman_Hand_Base",
+                "ItemNetConfigAddress": "the config from the addresables",
+                "ItemCamoIndex": 0,
+                "ItemSelectedCamoCloudSaveKey": "STICKMAN_HAND_DAVE_CAMO_CLOUDSAVE_KEY",
+                "ItemClassRarity": "Basic",
+                "ItemCamoRarity": "Rare",
+                "ItemSpriteAtlasId": "RARE_STICKMAN_HAND_SPRITE_ATLAS",
+                "ItemAtlasSpriteName": "Dave_Hand(Clone)",
+                "ItemUiVisualSpriteAtlasId": "NULL",
+                "ItemUiVisualSpriteName": "NULL",
+                "ItemUiVisualFlipRotation": "",
+                "ItemExtrasAddress": "NULL"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "ALIYAHOO419_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "ALIYAHOO419"
+            }, {
+                "CamoItemId": "ALIYAHOO419_ROSE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BEATLE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "BEATLE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "HITRAM_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "HITRAM"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "AK4117_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "AK4117"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BOLTLOCK_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "BOLTLOCK"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "REBOLT_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "REBOLT"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BATTLEAXE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "BATTLEAXE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "FRAG_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "FRAG"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "GRENADELUNCHER_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "GRENADELUNCHER"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "CLAIRVOYANCE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "CLAIRVOYANCE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "COUNTERCLAIRVOYANCE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "COUNTERCLAIRVOYANCE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "JETPACK_BASE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "JETPACK_BASE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_DAVE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "STICKMAN_DAVE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_BASE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "STICKMAN_BASE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_HAND_BASE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "STICKMAN_HAND_BASE"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_HAND_DAVE_PLAYER_ATTAINED_CAMOS_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "AttainedCamos": [{
+                "CamoItemId": "STICKMAN_HAND_DAVE"
+            }]
+        }
+    },{
+        "CloudSaveItemKey": "ALIYAHOO419_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "ALIYAHOO419",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Aliyahoo419(Clone)",
+                "CamoInGameName": "Aliyahoo419",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "ALIYAHOO419",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Aliyahoo419(Clone)",
+                "CamoInGameName": "Aliyahoo419",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BEATLE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "BEATLE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Beatle(Clone)",
+                "CamoInGameName": "Beatle",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "BEATLE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Beatle(Clone)",
+                "CamoInGameName": "Beatle",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "HITRAM_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "HITRAM",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "HitRam(Clone)",
+                "CamoInGameName": "HitRam",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "HITRAM",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "HitRam(Clone)",
+                "CamoInGameName": "HitRam",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "AK4117_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "AK4117",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Ak4117(Clone)",
+                "CamoInGameName": "Ak4117",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "AK4117",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Ak4117(Clone)",
+                "CamoInGameName": "Ak4117",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BOLTLOCK_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "BOLTLOCK",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "BoltLock(Clone)",
+                "CamoInGameName": "BoltLock",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "BOLTLOCK",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "BoltLock(Clone)",
+                "CamoInGameName": "BoltLock",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "REBOLT_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "REBOLT",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "ReBolt(Clone)",
+                "CamoInGameName": "ReBolt",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "REBOLT",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "ReBolt(Clone)",
+                "CamoInGameName": "ReBolt",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "BATTLEAXE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "BATTLEAXE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "BattleAxe(Clone)",
+                "CamoInGameName": "BattleAxe",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "BATTLEAXE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "BattleAxe(Clone)",
+                "CamoInGameName": "BattleAxe",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "FRAG_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Default",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "FRAG",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Frag(Clone)",
+                "CamoInGameName": "Frag",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "FRAG",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Frag(Clone)",
+                "CamoInGameName": "Frag",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "GRENADELUNCHER_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "GRENADELUNCHER",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "GrenadeLuncher(Clone)",
+                "CamoInGameName": "GrenadeLuncher",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "GRENADELUNCHER",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "GrenadeLuncher(Clone)",
+                "CamoInGameName": "GrenadeLuncher",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "CLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "CLAIRVOYANCE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Clairvoyance(Clone)",
+                "CamoInGameName": "Clairvoyance",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "CLAIRVOYANCE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Clairvoyance(Clone)",
+                "CamoInGameName": "Clairvoyance",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "COUNTERCLAIRVOYANCE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "COUNTERCLAIRVOYANCE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Counter_Clairvoyance(Clone)",
+                "CamoInGameName": "Counter_Clairvoyance",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "COUNTERCLAIRVOYANCE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Counter_Clairvoyance(Clone)",
+                "CamoInGameName": "Counter_Clairvoyance",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "JETPACK_BASE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Default",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "JETPACK_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Jetpack_Base(Clone)",
+                "CamoInGameName": "Jetpack_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "JECTACK_VISUALS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Jetpack_Base(Clone)"
+            }, {
+                "CamoId": "JETPACK_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Jetpack_Base(Clone)",
+                "CamoInGameName": "Jetpack_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "JECTACK_VISUALS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Jetpack_Base(Clone)"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_BASE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "STICKMAN_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Stickman_Base(Clone)",
+                "CamoInGameName": "Stickman_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Ashy_Icon(Clone)"
+            }, {
+                "CamoId": "STICKMAN_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Stickman_Base(Clone)",
+                "CamoInGameName": "Stickman_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Ashy_Icon(Clone)"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_DAVE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "STICKMAN_DAVE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Dave(Clone)",
+                "CamoInGameName": "Dave",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Dave_Icon(Clone)"
+            }, {
+                "CamoId": "STICKMAN_DAVE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Dave(Clone)",
+                "CamoInGameName": "Dave",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null",
+                "UiVisualSpriteAtlasId": "STICKMAN_ICONS_SPRITE_ATLAS",
+                "UiVisualAtlasSprieName": "Dave_Icon(Clone)"
+            }]
+        }
+    }, {
+        "CloudSaveItemKey": "STICKMAN_HAND_BASE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "STICKMAN_HAND_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Stickman_Hand_Base(Clone)",
+                "CamoInGameName": "Stickman_Hand_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "STICKMAN_HAND_BASE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Stickman_Hand_Base(Clone)",
+                "CamoInGameName": "Stickman_Hand_Base",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+        
+    }, {
+        "CloudSaveItemKey": "STICKMAN_HAND_DAVE_CAMO_CLOUDSAVE_KEY",
+        "AccessLevel": "Protected",
+        "DefaultValue": {
+            "SavedCamos": [{
+                "CamoId": "STICKMAN_HAND_DAVE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Dave_Hand(Clone)",
+                "CamoInGameName": "Dave",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }, {
+                "CamoId": "STICKMAN_HAND_DAVE",
+                "CamoIndex": 0,
+                "CamoAvailableInSeason": "1",
+                "CamoRarity": "Basic",
+                "CamoAtlasSpriteName": "Dave_Hand(Clone)",
+                "CamoInGameName": "Dave",
+                "CamoType": "Sprite",
+                "MaterialAddress": "Null"
+            }]
+        }
+    }]
+}
